@@ -1,0 +1,7 @@
+/* 1100-620 */
+@media (max-width: 1100px) and (min-width: 620px) {
+    .header{padding: 40px 40px;}
+    .header-btn-1{padding: 12px 16px;}
+    .header-btn-2{height: 40px;}
+    .header-cards{grid-template-columns: repeat(2, 1fr);}
+}

@@ -1,0 +1,29 @@
+/* 380 */
+@media only screen and (max-width: 380px) {
+  .mobile {
+    display: block;
+  }
+
+  .header {
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  .mobile .content {
+    font-size: 1em;
+    padding: 15px;
+  }
+
+  .mobile .footer {
+    font-size: 0.9em;
+    padding: 10px;
+  }
+}
+.header-btn-2{
+    width: 98px;
+    height: 40px;
+    left: 1201px;
+    border-radius: 16px;
+    border-width: 1px;
+}
+.btn-icon2{display: none;}

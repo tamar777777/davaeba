@@ -1,0 +1,60 @@
+.container{width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+ 
+   }
+   /* header */
+   .header{width: 100%;
+display: flex;justify-content: center;
+align-items: center;
+padding: 70px 70px;
+gap:  1198px;
+}
+.header-btn-1{width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+    gap: 8px;
+   
+}
+.header-btn-2{
+    width: 98px;
+height: 40px;
+left: 1201px;
+border-radius: 16px;
+border-width: 1px;
+
+}
+/* cards */
+
+.header-cards{width: 100%;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+padding: 20px;
+}
+.card-info{width: 100%;
+display: flex;
+align-items: center;
+gap: 8px;
+}
+.cards-heart{padding: 4px 20px;}
+/* footer */
+footer{width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+footer button{padding: 12px 16px;
+    border-radius: 8px;
+    border: none;
+    background-color:#0D0C22;
+    color: white;
+    cursor: pointer;
+}
+footer button:hover{background-color: #0056b3;
+}
